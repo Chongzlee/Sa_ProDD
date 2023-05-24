@@ -75,6 +75,11 @@ public class Coupon {
     //     cpns.add(new Coupon(coupon_id, coupon_name, coupon_description, coupon_type, coupon_startDate, coupon_endDate));
     // }
 
+    private void update_coupon(int coupon_id){
+        
+    }
+
+
     public void delete_coupon(int coupon_id){
         cpns.remove(coupon_id);
         System.out.println("Removing Coupon id :"+ coupon_id);

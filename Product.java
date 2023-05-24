@@ -89,6 +89,10 @@ class Product{
         System.out.println("Removing Product id :"+ product_id);
     } 
 
+    private void update_prtoduct(int product_id){
+        
+    }
+
         public int getProduct_id() {
         return this.product_id;
     }

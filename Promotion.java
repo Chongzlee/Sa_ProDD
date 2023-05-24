@@ -69,6 +69,9 @@ public class Promotion{
         System.out.println("Removing Promotion id :"+ promotion_id);
     }
 
+    private void update_promotion(int promotion_id){
+        
+    }
      public int getPromotion_id() {
         return this.promotion_id;
     }
